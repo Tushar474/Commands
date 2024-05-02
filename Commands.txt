@@ -1,0 +1,16 @@
+ls  -> list files and directories 
+touch  -> create file 
+pwd -> present working directory
+cd -> chaange directory
+cd .. -> go back one directory
+cd ..//.. ->go back two directories
+ls -ltr -> show detailed info about files
+vi "name" -> create and write in a file 
+i -> to start writing 
+cat -> to print the contents of the file
+mkdir -> make directory
+rm ->  remove file
+rm -r -> remove directory
+free -g -> memeory info
+:w -> save file 
+:x -> exit file
