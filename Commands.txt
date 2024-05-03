@@ -14,3 +14,254 @@ rm -r -> remove directory
 free -g -> memeory info
 :w -> save file 
 :x -> exit file
+nproc -> number of processing  usnit available on server
+df -h -> disk size in detail 
+top -> get all realtime info about memeory and system 
+
+
+diff between free df nproc
+free is for memeory
+df is for disk 
+nproc is for cpu 
+
+
+q -> to end top listings
+prefix man with any command (man ls) -> gives deatils of the command 
+vim / vi -> open the file created
+:wq! -> save and quit
+
+#!/bin/bash -> 1st line of scripts 
+defining the executables for the script and can use any (sh,bash,dash,ksh)
+concept of linking is used to link sh and dash  
+in present most os are using dash as default 
+
+sh (file name)-> to execute 
+./ (file name)-> to execute permissions and all are checked (a bash      command)
+
+history -> to get all commands used till date 
+
+
+03-05-2024 learnings commands used
+    1  chmod 600 /Users/Tushar/Downloads/new-Beg.pem
+    2  chmod 600 C:/Users/Tushar/Downloads/new-Beg.pem
+    3  touch tushar
+    4  ls
+    5  aws cli
+    6  sudo apt install awscli
+    7  aws cli
+    8  aws configure
+    9  aws s3 li
+   10  aws s3 mb tushar474
+   11  aws s3 mb ://tushar474
+   12  aws s3 mb s3://tushar474
+   13  aws s3 li
+   14  aws s3 ls
+   15  clear
+   16  clear
+   17  sudo apt update
+   18  sudo apt aws-cli
+   19  sudo apt awscli
+   20  clear
+   21  aws s3 ls
+   22  aws s3 mb s3://tushar1234
+   23  aws s3 mb s3://ruchi1234
+   24  aws s3 ls
+   25  aws
+   26  aws version
+   27  aws configure
+   28  aws cli
+   29  aws s3 mb s3://aaman
+   30  aws s3 mb s3://aaman122
+   31  aws s3 ls
+   32  aws configure
+   33  aws s3 mb s3://aaman122
+   34  aa
+   35  aws ec2 create-security-group --group-name first-group  --desicription "my firstclear"
+   36  celar
+   37  c
+   38  clear
+   39  aws ec2 create-security-group --group-name my-ft  --description "hello"
+   40  aws configure
+   41  aws ec2 create-security-group --group-name my-sd  --description "hello"
+   42  sudo apt update
+   43  mkdr tushar's
+   44  ls
+   45  clear
+   46  pwd
+   47  tushar's
+   48  ls
+   49  clear
+   50  pwd
+   51  .//
+   52  ls
+   53  cd tushar's
+   54  touch hii
+   55  ..//
+   56  ../
+   57  ../..
+   58  .//
+   59  ./
+   60  ../../
+   61  cd home
+   62  cd ../..
+   63  clear
+   64  cd tushar
+   65  .aws
+   66  ls -ltr
+   67  vi test
+   68  :wq
+   69  cat
+   70  rm -r tushar
+   71  ls ltr
+   72  ls lrt
+   73  pwd
+   74  mkdir test
+   75  ls
+   76  ls ltr
+   77  ls -ltr
+   78  vi test1
+   79  cat test1
+   80  touch first script.sh
+   81  ls
+   82  ls -ltr
+   83  man ls
+   84  ls
+   85  vi first
+   86  vi script.sh
+   87  cat first
+   88  sh script.sh
+   89  ./script.sh
+   90  chmod 600  /Users/Tushar/Downloads/new-Beg.pem
+   91  chmod 600 /Users/Tushar/Downloads/new-Beg.pem
+   92  "C:\Users\Tushar\Downloads\new-Beg.pem"
+   93  chmod 600 "C:\Users\Tushar\Downloads\new-Beg.pem"
+   94  chmod 600 Users/Tushar/Downloads/new-Beg.pem
+   95  aws cli
+   96  aws s3 ls
+   97  aws s3 mb /spanky
+   98  aws s3 mb s3://spanky
+   99  aws s3 mb s3://spanky471
+  100  aws s3 ls
+  101  pwd
+  102  cd bundle/
+  103  ls
+  104  cd test
+  105  pwd
+  106  .//
+  107  cd ..
+  108  pwd
+  109  cd ..//..
+  110  pwd
+  111  cd ubuntu/test
+  112  cd /ubuntu/test
+  113  cd /home/ubuntu
+  114  ls
+  115  cd test
+  116  pwd
+  117  ls -ltr
+  118  cd ..
+  119  ls ltr
+  120  ls -ltr
+  121  mkdir testremove
+  122  cd testremove
+  123  touch filerm
+  124  ls
+  125  rm filerm
+  126  ls
+  127  rm-r testremove
+  128  rm -r testremove
+  129  cd ..
+  130  pwd
+  131  ls -ltr
+  132  rm -r testremove
+  133  ls
+  134  ls -ltr
+  135  cat test1
+  136  vi test1
+  137  apt update
+  138  apt list --upgradable
+  139  apt upgrade
+  140  yes
+  141  c
+  142  apt list --upgradable
+  143  apt list update
+  144  aws cli
+  145  pwd
+  146  ls -ltr
+  147  free -g
+  148  nproc
+  149  df -hh
+  150  top
+  151  pwd
+  152  ls
+  153  ls -ltr
+  154  mkdir learn
+  155  pwd
+  156  cd learn
+  157  pwd
+  158  touch first-shell-script.sh
+  159  ls
+  160  ls -ltr
+  161  man ls
+  162  clear
+  163  ls
+  164  vim first-shell-script.sh
+  165  cat first-shell-script.sh
+  166  vim first-shell-script.sh
+  167  sh first-shell-script.sh
+  168  chmod first-shell-script.sh
+  169  chmod --help
+  170  chmod 777first-shell-script.sh
+  171  chmod 777 first-shell-script.sh
+  172  chmod 444 first-shell-script.sh
+  173  sh first-shell-script.sh
+  174  ./first-shell-script.sh
+  175  chmod 777 first-shell-script.sh
+  176  history
+  177  vim sample-shell-script.sh
+  178  chmod 777 first-shell-script.sh
+  179  ./first-shell-script.sh
+  180  chmod 777 sample-shell-script.sh
+  181  ls
+  182  ./sample-shell-script.sh
+  183  ls
+  184  ls -ltr
+  185  cd firstfolder
+  186  ls
+  187  vim sample-shell-script.sh
+  188  ls -ltr
+  189  cd ..
+  190  cd ..//..
+  191  ls -ltr
+  192  cd ubuntu
+  193  pwd
+  194  ls -ltr
+  195  cd learn
+  196  ls -ltr
+  197  cd firstfolder
+  198  ls -ltr
+  199  pwd
+  200  ./sample-shell-script.sh
+  201  chmod 777 sample-shell-script.sh
+  202  ./sample-shell-script.sh
+  203  ls
+  204  ls -ltr
+  205  cd secfolder
+  206  ls
+  207  cd ..
+  208  ls
+  209  ls -ltr
+  210  vim sample-shell-script.sh
+  211  ./sample-shell-script.sh
+  212  pwd
+  213  ls -ltr
+  214  vim sample-shell-script.sh
+  215  ./sample-shell-script.sh
+  216  vim sample-shell-script.sh
+  217  ./sample-shell-script.sh
+  218  cd thirdfolder
+  219  ls -ltr
+  220  clear
+  221  cd learn
+  222  cd ..//..
+  223  history
