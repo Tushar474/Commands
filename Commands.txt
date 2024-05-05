@@ -265,3 +265,10 @@ history -> to get all commands used till date
   221  cd learn
   222  cd ..//..
   223  history
+
+
+DAY 3  04/05/2024
+
+set -x  ->  set the script in debug mode
+ps -ef  -> gives entire detailof the processes  
+ps -ef | grep "amazon" -> gives deatils of specfic processes with id 
