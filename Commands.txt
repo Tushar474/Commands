@@ -272,3 +272,64 @@ DAY 3  04/05/2024
 set -x  ->  set the script in debug mode
 ps -ef  -> gives entire detailof the processes  
 ps -ef | grep "amazon" -> gives deatils of specfic processes with id 
+
+|(pipe command) -> send the output of the first command to the second
+
+comments to writee the file info 
+set -x to debug 
+ps -ef
+grep
+
+| date | echo "date is"
+date is
+
+differnet channels 
+stdin, stdout,  stderr 
+
+
+man awk -> awk is a pattern scanning andd processing language
+awk -F" " '{print$2}'
+                   ^
+                   |
+                column number 
+set -e # exit the script when there is an error and it only checks the lastest command 
+fsdfddsf |  echo | ffdfdssfsd | echo -> this will work bcz echo is a command
+
+set -o pipefail
+
+ps -ef |grep amazon | awk -F" " '{print$2}' -> this command retives the process ids  of processes 
+
+set -exo piplefail  ->appended command 
+
+
+logfile - find errors inn the log
+curl -> location of file(any git ,cloud ) address . It retives the info from internet and print 
+
+
+curl - X GET (LINK) -> gets the data from the api of the url
+wget ->this will download that file    
+
+su -> switch user 
+sudo find / -name pam.d
+
+
+
+in ifesle.sh script 
+
+a=4
+b=10
+if [$a > $b]
+then
+         echo "a is greater than b"
+else
+         echo "b is greater than b"
+fi
+
+
+#iterations -> for
+
+for i in {1.100}; do echo $1; done 
+
+
+
+trap -> for traping signals 
